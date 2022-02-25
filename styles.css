@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+body {
+    font-family: Poppins;
+    font-size: 180%;
+    color: rgb(207, 205, 205);
+    background-color: rgb(56, 56, 56);
+}
+
+.album-info {
+    height: 60%;
+    margin-left: 5%;
+    position: absolute;
+    top: 3%;
+    display: inline;
+}
+
+#album_name p {
+    width: 60%;
+    word-wrap: normal;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+img {
+    right: 7%;
+    width: 45%;
+    top: 4%;
+    position: absolute;
+}
+
+i {
+    padding-right: 1%;
+}
+
+@media only screen and (max-width: 600px) {
+    .album-info {
+        margin-top: 60%;
+        width: 77%;
+        word-wrap: normal;
+    }
+    img {
+        width: 60%;
+        right: 23.5%;
+        text-align: justify;
+    }
+}
